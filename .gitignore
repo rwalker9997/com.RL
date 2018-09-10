@@ -1,0 +1,4 @@
+.DS_Store
+.idea/
+.idea\
+src/main/kotlin/RoomLayoutApp/App.kt
