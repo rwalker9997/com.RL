@@ -3,6 +3,7 @@ package RoomLayoutApp
 import tornadofx.*
 import RoomLayoutApp.Workspaces.*
 import RoomLayoutApp.Views.*
+import javafx.application.Application.launch
 import javafx.scene.Scene
 
 class RoomLayoutApp :App(MainWorkspace::class){
