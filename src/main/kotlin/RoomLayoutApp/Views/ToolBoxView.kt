@@ -1,6 +1,6 @@
 package RoomLayoutApp.Views
 
-import javafx.geometry.Pos
+import RoomLayoutApp.Views.Forms.AddFurnitureFormView
 import javafx.scene.paint.Color
 import tornadofx.*
 
@@ -9,7 +9,9 @@ class ToolBoxView  :View(){
         vbox {
             label("Tools:")
             menubar() {
-                menu("+") {}
+                menu("+") {
+                    find<AddFurnitureFormView>().openModal()
+                }
                 menu("-") {}
                 menu("Recent Furniture:")
             }

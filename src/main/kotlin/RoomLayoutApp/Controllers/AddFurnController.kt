@@ -2,6 +2,6 @@ package RoomLayoutApp.Controllers
 
 import tornadofx.*
 
-class AddFurnController  :Controller(){
+class AddFurnController  : Controller(){
 
 }
