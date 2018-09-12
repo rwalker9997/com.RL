@@ -14,8 +14,6 @@ class RoomLayoutApp :App(MainWorkspace::class){
 
 }
 
-
-
 fun main(args: Array<String>) {
     launch<RoomLayoutApp>(args)
 
